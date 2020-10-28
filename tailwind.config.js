@@ -13,6 +13,11 @@ module.exports = {
       },
     },
   },
-  variants: {},
+  variants: {
+    width: ["responsive", "hover", "focus"],
+    height: ["responsive", "hover", "focus"],
+    scale: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
+    padding: ['responsive', 'hover', 'focus'],
+  },
   plugins: [],
 }
