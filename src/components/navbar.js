@@ -13,7 +13,7 @@ export default function Navbar() {
     }
 
     return (
-        <nav className="flex flex-wrap justify-between items-center bg-silver py-6 px-6 md:px-24 lg:px-40">
+        <nav className="flex flex-wrap justify-between items-center bg-silver py-6 px-6 md:px-24 lg:px-40 xl:px-64">
             <div className="flex items-center flex-shrink-0 text-silver mr-6 cursor-pointer">
                 <Link to="/" className="hidden text-primary text-4xl font-bold lg:block">Jake Bisson</Link>
                 <Link to="/" className="hidden text-primary text-4xl font-bold md:block lg:hidden">Jake</Link>
@@ -31,7 +31,7 @@ export default function Navbar() {
                 <Link to="/" className="block p-2 text-primary rounded md:inline-block lg:mt-0 hover:text-secondary duration-200 mr-4">Home</Link>
                 <Link to="/about" className="block p-2 text-primary rounded md:inline-block lg:mt-0 hover:text-secondary duration-200 mr-4">About</Link>
                 <Link to="/projects" className="block p-2 text-primary rounded md:inline-block lg:mt-0 hover:text-secondary duration-200 mr-4">Projects</Link>
-                <Link to="/contact" className="block p-2 text-primary rounded md:inline-block lg:mt-0 hover:text-secondary duration-200 mr-4">Contact</Link>
+                <Link to="/contact" className="block p-2 text-primary rounded md:inline-block lg:mt-0 hover:text-secondary duration-200 mr-4">Socials</Link>
                 <Link to="/" className="hidden md:inline-block py-2 px-3 border rounded-xl border-primary text-primary hover:bg-primary hover:text-silver duration-200 hover:shadow-lg">Resume</Link>
             </div>
         </nav>
