@@ -11,6 +11,11 @@ module.exports = {
         'secondary' : {lighter: '#253b5c', default: '#1C355D', darker: '#12305c'},
         'silver' : {lighter: '#f5f6f7', default: '#EFF3F6', darker: '#d5d8db'},
       },
+
+      fontFamily: {
+        title: ['Quicksand'],
+        body: ['Montserrat'],
+      },
     },
   },
   variants: {
