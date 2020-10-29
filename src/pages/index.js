@@ -17,8 +17,8 @@ import cssLogo from "../images/cssLogo.svg";
 import jsLogo from "../images/javscriptLogo.svg";
 import oracleDBLogo from "../images/oracleDBLogo.svg";
 import webDeveloper from "../images/webdeveloper.svg";
-import onlineBikeShop from "../images/lab5img1.png";
-import uiDesignProject from "../images/uidesignproject.png";
+//import onlineBikeShop from "../images/lab5img1.png";
+//import uiDesignProject from "../images/uidesignproject.png";
 
 export default function Home() {
   return (
@@ -59,12 +59,12 @@ export default function Home() {
         <div>
           <div className="mt-8 grid grid-cols-1 gap-10 xl:grid-cols-3 xl:gap-10">
             <Card to="" image={ webDeveloper } alt="HyperText" title="HyperText" description="Irure laboris velit excepteur tempor non est elit sunt mollit deserunt nostrud ipsum labore labore. Qui in cillum nostrud officia officia. Sit adipisicing qui ut mollit exercitation proident officia. " /> 
-            <Card to="" image={ uiDesignProject } alt="UI Design Project" title="UI Design Project" description="Irure laboris velit excepteur tempor non est elit sunt mollit deserunt nostrud ipsum labore labore. Qui in cillum nostrud officia officia. Sit adipisicing qui ut mollit exercitation proident officia. " /> 
-            <Card to="" image={ onlineBikeShop } alt="Online Bike Shop" title="Online Bike Shop" description="Irure laboris velit excepteur tempor non est elit sunt mollit deserunt nostrud ipsum labore labore. Qui in cillum nostrud officia officia. Sit adipisicing qui ut mollit exercitation proident officia. " /> 
+            <Card to="" image={ webDeveloper } alt="UI Design Project" title="UI Design Project" description="Irure laboris velit excepteur tempor non est elit sunt mollit deserunt nostrud ipsum labore labore. Qui in cillum nostrud officia officia. Sit adipisicing qui ut mollit exercitation proident officia. " /> 
+            <Card to="" image={ webDeveloper } alt="Online Bike Shop" title="Online Bike Shop" description="Irure laboris velit excepteur tempor non est elit sunt mollit deserunt nostrud ipsum labore labore. Qui in cillum nostrud officia officia. Sit adipisicing qui ut mollit exercitation proident officia. " /> 
           </div>
         </div>
       </div>
-
+      
       <Footer />
     </div>
   );
