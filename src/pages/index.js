@@ -18,7 +18,7 @@ import jsLogo from "../images/javscriptLogo.svg";
 import oracleDBLogo from "../images/oracleDBLogo.svg";
 import webDeveloper from "../images/webdeveloper.svg";
 import onlineBikeShop from "../images/onlinebikeshop.png";
-//import uiDesignProject from "../images/uidesignproject.png";
+import designProject from "../images/designandanalysis.png";
 
 export default function Home() {
   return (
@@ -59,7 +59,7 @@ export default function Home() {
         <div className="my-20">
           <div className="mt-8 grid grid-cols-1 gap-10 xl:grid-cols-3 xl:gap-10">
             <Card image={ webDeveloper } liveUrl="https://www.google.ca" repoUrl="https://www.google.ca" alt="HyperText" title="HyperText" description="Irure laboris velit excepteur tempor non est elit sunt mollit deserunt nostrud ipsum labore labore. Qui in cillum nostrud officia officia. Sit adipisicing qui ut mollit exercitation proident officia. " /> 
-            <Card image={ webDeveloper } liveUrl="https://jakebisson8.github.io/UIDesign/" repoUrl="https://github.com/JakeBisson8/UIDesign" alt="UI Design Project" title="UI Design Project" description="Irure laboris velit excepteur tempor non est elit sunt mollit deserunt nostrud ipsum labore labore. Qui in cillum nostrud officia officia. Sit adipisicing qui ut mollit exercitation proident officia. " /> 
+            <Card image={ designProject } liveUrl="https://jakebisson8.github.io/UIDesign/" repoUrl="https://github.com/JakeBisson8/UIDesign" alt="UI Design Project" title="UI Design Project" description="Irure laboris velit excepteur tempor non est elit sunt mollit deserunt nostrud ipsum labore labore. Qui in cillum nostrud officia officia. Sit adipisicing qui ut mollit exercitation proident officia. " /> 
             <Card image={ onlineBikeShop } liveUrl="https://jakebisson8.github.io/UIDesign/projects/bike-repair-shop/index.html" repoUrl="https://github.com/JakeBisson8/UIDesign/tree/main/docs/projects/bike-repair-shop" alt="Online Bike Shop" title="Online Bike Shop" description="Irure laboris velit excepteur tempor non est elit sunt mollit deserunt nostrud ipsum labore labore. Qui in cillum nostrud officia officia. Sit adipisicing qui ut mollit exercitation proident officia. " /> 
           </div>
           <Link to="/projects" className="block text-center mt-10 text-secondary-lighter text-xl hover:underline duration-200">More projects<i className="fas fa-arrow-right ml-1"></i></Link>
