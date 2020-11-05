@@ -6,10 +6,10 @@ export default function contact(params) {
     return (
         <div>
             <Helmet>
-                <title>Contact | Jake Bisson</title>
+                <title>Socials | Jake Bisson</title>
             </Helmet>
             <Navbar/>
-            <div>About Page</div>
+            <div>Socials page</div>
         </div>
     );
 };

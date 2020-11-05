@@ -1,6 +1,12 @@
 import React from "react"
 
 export default function Footer() {
+
+    let githubUrl = "https://github.com/JakeBisson8";
+    let linkedinUrl = "https://www.linkedin.com/in/jake-bisson/";
+    let instagramUrl = "https://www.instagram.com/bissonjake/";
+    let facebookUrl = "https://www.facebook.com/jake.bisson.581/";
+
     return (
         <footer className="bg-silver px-16 md:px-24 lg:px-48 xl:px-64 py-6 text-primary">
             <div class="flex flex-col sm:flex-row justify-between items-center flex-wrap">
@@ -12,10 +18,10 @@ export default function Footer() {
                     <div className="text-secondary font-body">jlb4@rogers.com</div>
                 </div>
                 <div>
-                    <div className="text-xl inline border border-primary mr-5 rounded-lg px-2 py-1 hover:text-silver hover:bg-primary cursor-pointer duration-200"><i class="fab fa-github"></i></div>
-                    <div className="text-xl inline border border-primary mr-5 rounded-lg px-2 py-1 hover:text-silver hover:bg-primary cursor-pointer duration-200"><i class="fab fa-linkedin-in"></i></div>
-                    <div className="text-xl inline border border-primary mr-5 rounded-lg px-2 py-1 hover:text-silver hover:bg-primary cursor-pointer duration-200"><i class="fab fa-instagram"></i></div>
-                    <div className="text-xl inline border border-primary mr-5 rounded-lg px-2 py-1 hover:text-silver hover:bg-primary cursor-pointer duration-200"><i class="fab fa-facebook"></i></div>
+                    <a href={githubUrl} target="_blank" rel="noreferrer" aria-label="github" className="text-xl inline border border-primary mr-5 rounded-lg px-2 py-1 hover:text-silver hover:bg-primary cursor-pointer duration-200"><i class="fab fa-github"></i></a>
+                    <a href={linkedinUrl} target="_blank" rel="noreferrer" aria-label="linked in" className="text-xl inline border border-primary mr-5 rounded-lg px-2 py-1 hover:text-silver hover:bg-primary cursor-pointer duration-200"><i class="fab fa-linkedin-in"></i></a>
+                    <a href={instagramUrl} target="_blank" rel="noreferrer" aria-label="instagram" className="text-xl inline border border-primary mr-5 rounded-lg px-2 py-1 hover:text-silver hover:bg-primary cursor-pointer duration-200"><i class="fab fa-instagram"></i></a>
+                    <a href={facebookUrl} target="_blank" rel="noreferrer" aria-label="facebook" className="text-xl inline border border-primary mr-5 rounded-lg px-2 py-1 hover:text-silver hover:bg-primary cursor-pointer duration-200"><i class="fab fa-facebook"></i></a>
                 </div>
             </div>
         </footer>
