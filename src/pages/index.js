@@ -17,8 +17,8 @@ import cssLogo from "../images/cssLogo.svg";
 import jsLogo from "../images/javscriptLogo.svg";
 import oracleDBLogo from "../images/oracleDBLogo.svg";
 import webDeveloper from "../images/webdeveloper.svg";
-import onlineBikeShop from "../images/onlinebikeshop.png";
-import uiDesignProject from "../images/uidesignproject.png";
+var onlineBikeShop = require("../images/onlinebikeshop.png");
+var uiDesignProject = require("../images/uidesignproject.png");
 
 export default function Home() {
   return (
