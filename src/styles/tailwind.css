@@ -7,3 +7,11 @@
 .card {
     @apply bg-white rounded-md overflow-hidden shadow-md relative;
 }
+
+.nav-link {
+    @apply block p-2 text-primary font-body rounded duration-200 mr-4;
+}
+
+.nav-link:hover {
+    @apply text-secondary;
+}

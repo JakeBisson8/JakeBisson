@@ -28,10 +28,10 @@ export default function Navbar() {
                 </button>
             </div>
             <div className="hidden block w-full md:flex md:justify-center md:items-center md:w-auto md:background-secondary" id="nav-items">
-                <Link to="/" className="block p-2 text-primary font-body rounded md:inline-block lg:mt-0 hover:text-secondary duration-200 mr-4">Home</Link>
-                <Link to="/about" className="block p-2 text-primary font-body rounded md:inline-block lg:mt-0 hover:text-secondary duration-200 mr-4">About</Link>
+                <Link to="/" className="nav-link md:inline-block lg:mt-0">Home</Link>
+                <Link to="/about" className="nav-link md:inline-block lg:mt-0">About</Link>
+                <Link to="/contact" className="nav-link md:inline-block lg:mt-0">Contact</Link>
                 <Link to="/projects" className="block p-2 text-primary font-body rounded md:inline-block lg:mt-0 hover:text-secondary duration-200 mr-4">Projects</Link>
-                <Link to="/social" className="block p-2 text-primary font-body rounded md:inline-block lg:mt-0 hover:text-secondary duration-200 mr-4">Socials</Link>
                 <Link to="/" className="hidden font-body md:inline-block p-3 border rounded-xl border-primary text-primary hover:bg-primary hover:text-silver duration-200 hover:shadow-lg">Resume</Link>
             </div>
         </nav>
