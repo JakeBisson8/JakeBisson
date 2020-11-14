@@ -17,7 +17,7 @@ export default function About() {
                 <title>About | Jake Bisson</title>
             </Helmet>
             <Navbar/>
-            <div className="w-3/4 m-auto">
+            <div className="w-3/4 m-auto mb-12">
                 <div className="mt-12 grid grid-cols-1 md:grid-cols-3 col-gap-32 md:mt-32">
                     <div className="col-span-2">
                         <div className="mb-8">
@@ -38,16 +38,6 @@ export default function About() {
                                 That's enough about me for now, I'd like to get to know about you! you can reach out to me through my socials 
                                 or by email (jlb4@rogers.com). 
                             </p>
-                        </div>
-                        <div className="mt-12 mb-12">
-                            <p className="text-primary text-4xl font-title font-bold">I'm searching for a co-op placement...</p>
-                            <p className="text-secondary text-xl font-title font-bold">
-                            (Summer 2021, May-August) Full stack, Front-end, or Back-end Developer 
-                            </p>
-                            <p className="text-secondary font-body text-lg mt-3">
-                                I would love to get an opportunity to become the newest asset to your team. 
-                            </p>
-                            <button className="text-primary border border-primary rounded-md px-3 py-2 mt-3 hover:bg-primary hover:text-silver hover:shadow-lg duration-200">View Resume</button>
                         </div>
                     </div>
                     <div className="col-span-1 hidden md:block">

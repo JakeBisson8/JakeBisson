@@ -20,7 +20,7 @@ export default function Navbar() {
                 <Link to="/" className="text-primary text-4xl font-bold md:hidden font-title">JB</Link>
             </div>
             <div className="md:hidden">
-                <Link to="/" className="inline-block p-3 border rounded-xl border-primary text-primary hover:bg-primary hover:text-silver duration-200 hover:shadow-lg">Resume</Link>
+                <Link to="/" className="inline-block p-3 rounded-xl text-silver bg-primary hover:shadow-lg duration-200">Resume</Link>
             </div>
             <div className="md:hidden">
                 <button className="flex items-center p-3 rounded text-primary hover:bg-primary hover:text-silver hover:shadow-xl focus:outline-none duration-200" onClick={ openNavMenu }>
@@ -32,7 +32,7 @@ export default function Navbar() {
                 <Link to="/about" className="nav-link md:inline-block lg:mt-0">About</Link>
                 <Link to="/contact" className="nav-link md:inline-block lg:mt-0">Contact</Link>
                 <Link to="/projects" className="block p-2 text-primary font-body rounded md:inline-block lg:mt-0 hover:text-secondary duration-200 mr-4">Projects</Link>
-                <Link to="/" className="hidden font-body md:inline-block p-3 border rounded-xl border-primary text-primary hover:bg-primary hover:text-silver duration-200 hover:shadow-lg">Resume</Link>
+                <Link to="/" className="hidden font-body md:inline-block p-3 rounded-xl bg-primary text-silver hover:shadow-lg duration-200">Resume</Link>
             </div>
         </nav>
     );

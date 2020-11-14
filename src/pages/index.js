@@ -29,13 +29,13 @@ export default function Home() {
       </Helmet>
       <Navbar />
       <div className="bg-white p-16 md:p-40 lg:p-48 xl:p-64 flex items-center">
-        <div className="grid grid-cols-7">
+        <div className="grid grid-cols-7 col-gap-12">
           <div className="col-span-7 lg:col-span-5">
             <h1 className="text-primary text-6xl font-bold font-title">Hello, I'm Jake</h1>
-            <p className="text-secondary text-xl font-body">I am a third year software engineering student at the University of Ottawa. <br/> I would love to be a new asset to your team for the summer 2021 term.</p> 
+            <p className="text-secondary text-xl font-body">I am a third year software engineering student at the University of Ottawa. I would love to be a new asset to your team for the summer 2021 term.</p> 
             <div className="mt-10 text-center sm:text-left font-body">
-              <Link to="/about" className="text-lg px-6 py-4 text-silver border border-primary bg-primary rounded-xl mr-5 hover:shadow-xl duration-200">About Me</Link>
-              <Link to="/contact" className="text-lg px-6 py-4 border border-primary text-primary rounded-xl hover:shadow-xl hover:bg-primary hover:text-silver duration-200">Contact Me</Link>
+              <Link to="/about" className="text-lg px-6 py-4 text-silver border border-primary bg-primary rounded-xl mr-5 hover:shadow-xl duration-200">More about me</Link>
+              <Link to="/contact" className="text-lg px-6 py-4 border border-primary text-primary rounded-xl hover:shadow-xl hover:bg-primary hover:text-silver duration-200">Connect with me</Link>
             </div>
           </div>
           <div className="hidden md:col-span-2 lg:block">
