@@ -28,14 +28,14 @@ export default function Home() {
         <script src="https://kit.fontawesome.com/b3bbc226c9.js" crossOrigin="anonymous"></script>
       </Helmet>
       <Navbar />
-      <div className="bg-white p-16 md:p-40 lg:p-48 xl:p-64 flex items-center">
+      <div className="bg-white p-16 md:py-20 md:px-40 lg:py-24 lg:px-48 xl:py-32 xl:px-64 flex items-center">
         <div className="grid grid-cols-7 col-gap-12">
           <div className="col-span-7 lg:col-span-5">
             <h1 className="text-primary text-6xl font-bold font-title">Hello, I'm Jake</h1>
             <p className="text-secondary text-xl font-body">I am a third year software engineering student at the University of Ottawa. I would love to be a new asset to your team for the summer 2021 term.</p> 
             <div className="mt-10 text-center sm:text-left font-body">
-              <Link to="/about" className="text-lg px-6 py-4 text-silver border border-primary bg-primary rounded-xl mr-5 hover:shadow-xl duration-200">More about me</Link>
-              <Link to="/contact" className="text-lg px-6 py-4 border border-primary text-primary rounded-xl hover:shadow-xl hover:bg-primary hover:text-silver duration-200">Connect with me</Link>
+              <Link to="/about" className="text-lg w-full px-6 py-4 block sm:inline-block sm:w-auto text-silver border border-primary bg-primary rounded-xl mr-5 hover:shadow-xl duration-200">More about me</Link>
+              <Link to="/contact" className="text-lg w-full mt-4 px-6 py-4 block sm:mt-0 sm:inline-block sm:w-auto border border-primary text-primary rounded-xl hover:shadow-xl hover:bg-primary hover:text-silver duration-200">Connect with me</Link>
             </div>
           </div>
           <div className="hidden md:col-span-2 lg:block">
@@ -43,18 +43,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      <div className="bg-silver flex flex-col md:flex-row flex-wrap justify-center items-center p-6 duration-300">
-        <img src={ htmlLogo } alt="html Logo" className="h-16 mx-16"/>
-        <img src={ cssLogo } alt="css Logo" className="h-16 mx-16"/>
-        <img src={ jsLogo } alt="js Logo" className="h-16 mx-16"/>
-        <img src={ phpLogo } alt="php Logo" className="h-16 mx-16"/>
-        <img src={ nodeLogo } alt="Node Logo" className="h-16 mx-16"/>
-        <img src={ reactLogo } alt="React Logo" className="h-16 mx-16"/>
-        <img src={ oracleDBLogo } alt="oracle DB Logo" className="h-16"/>
-      </div>
       
-      <div className="px-20 py-10 md:px-48 lg:px-64">
+      <div className="p-16 md:px-40 lg:px-48 xl:px-64">
         <h2 className="text-primary text-5xl font-bold font-title">My Projects</h2>
         <div className="my-20">
           <div className="mt-8 grid grid-cols-1 gap-10 xl:grid-cols-3 xl:gap-10">

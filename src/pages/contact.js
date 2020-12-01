@@ -10,10 +10,6 @@ import "../styles/main.css";
 
 import contactMe from "../images/contactme.svg"
 export default function contact() {
-    let githubUrl = "https://github.com/JakeBisson8";
-    let linkedinUrl = "https://www.linkedin.com/in/jake-bisson/";
-    let instagramUrl = "https://www.instagram.com/bissonjake/";
-    let facebookUrl = "https://www.facebook.com/jake.bisson.581/";
 
     return (
         <div>
@@ -21,8 +17,8 @@ export default function contact() {
                 <title>Let's Connect | Jake Bisson</title>
             </Helmet>
             <Navbar/>
-            <div className="w-3/4 m-auto mb-12">
-                <div className="mt-12 grid grid-cols-1 md:grid-cols-3 col-gap-32 md:mt-32">
+            <div className="mb-12 px-16 md:px-40 lg:px-48 xl:px-64">
+                <div className="mt-12 grid grid-cols-1 md:grid-cols-3 col-gap-24 md:mt-32">
                     <div className="col-span-2">
                         <h1 className="text-5xl lg:text-6xl text-primary font-title font-bold">Let's Connect</h1>
                         <p className="text-md md:text-xl font-body text-secondary">
