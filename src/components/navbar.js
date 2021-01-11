@@ -31,7 +31,7 @@ export default function Navbar() {
                 <Link to="/" className="nav-link md:inline-block lg:mt-0">Home</Link>
                 <Link to="/about" className="nav-link md:inline-block lg:mt-0">About</Link>
                 <Link to="/contact" className="nav-link md:inline-block lg:mt-0">Contact</Link>
-                <Link to="/projects" className="block p-2 text-primary font-body rounded md:inline-block lg:mt-0 hover:text-secondary duration-200 mr-4">Projects</Link>
+                {/* <Link to="/projects" className="block p-2 text-primary font-body rounded md:inline-block lg:mt-0 hover:text-secondary duration-200 mr-4">Projects</Link> */}
                 <a href="https://drive.google.com/file/d/1sTZUdsdrZuk-FGD794YvGeAi-Jame3Ys/view?usp=sharing" target="_blank" className="hidden font-body md:inline-block p-3 rounded-xl bg-primary text-silver hover:shadow-lg duration-200">Resume</a>
             </div>
         </nav>

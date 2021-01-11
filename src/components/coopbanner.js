@@ -10,7 +10,7 @@ export default function coopbanner() {
                     <p>Full stack, Front-end, or Back-end Developer</p>
                 </div>
                 <p className="text-silver font-body text-lg mt-3">
-                    I would love to get an opportunity to become a new asset to your team. 
+                    I would love to get an opportunity to become a new addition to your team. 
                 </p>
             </div>
         </div>
