@@ -1,6 +1,7 @@
 import React from "react"
 import CoopBanner from "./coopbanner";
 import SocialMediaButtons from "./socialMediaButtons";
+import resume from '../files/JakeBisson-Resume-Uottawa.pdf';
 
 export default function Footer() {
     return (
@@ -9,7 +10,7 @@ export default function Footer() {
             <div className="className=bg-silver px-16 md:px-24 lg:px-48 xl:px-64 py-6 text-primary">
                 <div class="flex flex-col sm:flex-row justify-between items-center flex-wrap">
                     <div>
-                        <button className="rounded-xl text-silver bg-primary font-body p-3 hover:shadow-lg duration-200">Resume</button>
+                        <a href={resume} target="_blank" className="rounded-xl text-silver bg-primary font-body p-3 hover:shadow-lg duration-200">Resume</a>
                     </div>
                     <div className="text-center m-5 sm:m-0">
                         <div className="text-3xl font-bold font-title">Jake Bisson</div>

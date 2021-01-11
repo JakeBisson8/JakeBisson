@@ -18,8 +18,8 @@ export default function About() {
                 <title>About | Jake Bisson</title>
             </Helmet>
             <Navbar/>
-            <div className="mb-12 px-16 md:px-40 lg:px-48 xl:px-64">
-                <div className="mt-12 grid grid-cols-1 md:grid-cols-3 col-gap-24 md:mt-32">
+            <div className="mb-12 px-16 md:mb-24 md:px-40 lg:px-48 xl:px-64">
+                <div className="mt-12 grid grid-cols-1 md:grid-cols-3 col-gap-24 md:mt-24">
                     <div className="col-span-2">
                         <div className="mb-8">
                             <h1 className="text-6xl text-primary font-title font-bold">About Me</h1>
@@ -35,7 +35,7 @@ export default function About() {
                                 at home playing some video games with my friends. 
                             </p>
                             <p>
-                                That's enough about me for now, I'd like to get to know about you! you can reach out to me through 
+                                That's enough about me for now, I'd like to get to know about you! You can reach out to me through 
                                 my <Link to="/contact" className="text-primary">socials</Link> or by email (jlb4@rogers.com). 
                             </p>
                         </div>

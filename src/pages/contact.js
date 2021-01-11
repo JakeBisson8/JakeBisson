@@ -17,8 +17,8 @@ export default function contact() {
                 <title>Let's Connect | Jake Bisson</title>
             </Helmet>
             <Navbar/>
-            <div className="mb-12 px-16 md:px-40 lg:px-48 xl:px-64">
-                <div className="mt-12 grid grid-cols-1 md:grid-cols-3 col-gap-24 md:mt-32">
+            <div className="mb-12 px-16 md:mb-24 md:px-40 lg:px-48 xl:px-64">
+                <div className="mt-12 grid grid-cols-1 md:grid-cols-3 col-gap-24 md:mt-24">
                     <div className="col-span-2">
                         <h1 className="text-5xl lg:text-6xl text-primary font-title font-bold">Let's Connect</h1>
                         <p className="text-md md:text-xl font-body text-secondary">
