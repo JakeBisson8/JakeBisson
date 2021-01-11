@@ -22,7 +22,7 @@ export default function Projects() {
             </Helmet>
             <Navbar/>
             <div className="mb-12 md:mb-24 px-16 md:px-40 lg:px-48 xl:px-64">
-                <div className="flex justify-center md:justify-between items-center mt-12 md:mt-24">
+                <div className="flex justify-center md:justify-between items-start mt-12 md:mt-24">
                     <div className="mb-8">
                         <h1 className="text-6xl text-primary font-title font-bold">Projects</h1>
                     </div>
