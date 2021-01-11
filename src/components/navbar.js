@@ -1,8 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import resume from '../files/JakeBisson-Resume-Uottawa.pdf';
-
 export default function Navbar() {
 
     function openNavMenu() {
@@ -22,7 +20,7 @@ export default function Navbar() {
                 <Link to="/" className="text-primary text-4xl font-bold md:hidden font-title">JB</Link>
             </div>
             <div className="md:hidden">
-                <a href={resume} target="_blank" className="inline-block p-3 rounded-xl text-silver bg-primary hover:shadow-lg duration-200">Resume</a>
+                <a href="https://drive.google.com/file/d/1sTZUdsdrZuk-FGD794YvGeAi-Jame3Ys/view?usp=sharing" target="_blank" className="inline-block p-3 rounded-xl text-silver bg-primary hover:shadow-lg duration-200">Resume</a>
             </div>
             <div className="md:hidden">
                 <button className="flex items-center p-3 rounded text-primary hover:bg-primary hover:text-silver hover:shadow-xl focus:outline-none duration-200" onClick={ openNavMenu }>
@@ -34,7 +32,7 @@ export default function Navbar() {
                 <Link to="/about" className="nav-link md:inline-block lg:mt-0">About</Link>
                 <Link to="/contact" className="nav-link md:inline-block lg:mt-0">Contact</Link>
                 <Link to="/projects" className="block p-2 text-primary font-body rounded md:inline-block lg:mt-0 hover:text-secondary duration-200 mr-4">Projects</Link>
-                <a href={resume} target="_blank" className="hidden font-body md:inline-block p-3 rounded-xl bg-primary text-silver hover:shadow-lg duration-200">Resume</a>
+                <a href="https://drive.google.com/file/d/1sTZUdsdrZuk-FGD794YvGeAi-Jame3Ys/view?usp=sharing" target="_blank" className="hidden font-body md:inline-block p-3 rounded-xl bg-primary text-silver hover:shadow-lg duration-200">Resume</a>
             </div>
         </nav>
     );
